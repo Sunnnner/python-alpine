@@ -10,4 +10,3 @@ RUN set -e ; \
     pip install --no-cache -r /requirements.txt ; \
     apk del gcc g++ musl-dev postgresql-dev wget ca-certificates ;
 
-ENTRYPOINT ["/bin/sh", "/docker-entrypoint.sh"]
