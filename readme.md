@@ -1,1 +1,1 @@
-- 使用Python-alpine 安装numpy,pandas
+- use docker image Python-alpine install numpy pandas
